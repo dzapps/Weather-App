@@ -1,0 +1,71 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Weather App - Index</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link style="text/css" rel="stylesheet" href="app.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans|Roboto" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <!--<link rel="stylesheet" href="/simplex.min.css">-->
+    </head>
+
+	<body>
+        
+
+<div class="container" style="margin-bottom: 40px; margin-top: 40px;">
+    
+        <div class="row">
+        <div class="col-md-12">
+            <h2 id="tit" class="text-center text-primary">
+                <img src="images/wea.png" style="width: 100px;">
+                <!--<img src="images/weather-icon-03.gif" style="width: 100px;">-->
+                <strong>Weather App</strong></h2>
+            <p class="text-center" id="welcome-paragraph">The App is a web-based application that allows users to search for current weather information as well as weather forecast of different cities around the world. Users can search for weather information by city name. The weather app uses the openweathermap API which is found at <a href="http://www.openweathermap.org" target="_blank";>openweathermap.</a></p>    
+        </div>
+        <div id="options" class="col-md-6 text-center">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <a href="current.html">Current</a>
+        </div>
+        <div id="options" class="col-md-6 text-center">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <a href="forecast.html">Forecast</a>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <div class="row" id="rowDiv">
+        <div class="col-md-4" id="colDesc">
+            <div class="info-icon"><i class="fa fa-sun-o" style="color: yellow;"></i></div>
+            <h3 class="text-center">Weather API</h3>
+            <p style="font-size: 18px; color: #3b3b3b;" class="text-center">The App use openweathermap API to get weather information of any city.</p>
+        </div>
+        
+        <div class="col-md-4" id="colDesc">
+            <div class="info-icon"><i class="fa fa-search" style="color: red;"></i></div>
+            <h3 class="text-center">Search</h3>
+            <p style="font-size: 18px; color: #3b3b3b;" class="text-center">You just need to click on the 2 links above for have all your informations.</p>
+        </div>
+        
+        <div class="col-md-4" id="colDesc">
+            <div class="info-icon"><i class="fa fa-eye"style="color: blue;"></i></div>
+            <h3 class="text-center">View Result</h3>
+            <p style="font-size: 18px; color: #3b3b3b;" class="text-center">Get information about temperature, pressure, humidity, wind speed and direction.</p>
+        </div>
+    </div>
+
+
+    </div>
+    
+       
+        <script src="app.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        
+        
+
+	</body>
+</html>
